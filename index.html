@@ -5,9 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Password Generator</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  
+  <div class ="body-containter">
+    <header>
+      <h1>Secure Password Generator</h1>
+    </header>
+  </div>
+  <div class="container">
+    <h2>You can generate your password in the box below</h2>
+  </div>
+  <div class="text-box">
+  <textarea readonly id="passowrd" placeholder="Your secure password" aria-label="Generate your password"></textarea>
+  </div>
+  <div class="footer">
+    <button class="btn">Generate Password</button>
+  </div>
+  <script src="./password.js"></script>
 </body>
 </html>
